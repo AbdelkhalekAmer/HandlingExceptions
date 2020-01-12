@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SharedLiberaryForDomains;
+
+using System;
 
 namespace AppDomainB
 {
@@ -7,11 +9,7 @@ namespace AppDomainB
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            HandleData();
-        }
-        static void HandleData()
-        {
-            throw new NotImplementedException();
+            Data.HandleData();
         }
     }
 }
