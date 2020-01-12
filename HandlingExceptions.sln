@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomainB", "AppDomainB\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLiberaryForDomains", "SharedLiberaryForDomains\SharedLiberaryForDomains.csproj", "{AD348914-702B-41C9-B088-58DAF1E067BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCatch", "MultiCatch\MultiCatch.csproj", "{702E4CAB-F7A8-4DA4-AFE4-2EC540E07D8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AD348914-702B-41C9-B088-58DAF1E067BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD348914-702B-41C9-B088-58DAF1E067BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD348914-702B-41C9-B088-58DAF1E067BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702E4CAB-F7A8-4DA4-AFE4-2EC540E07D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702E4CAB-F7A8-4DA4-AFE4-2EC540E07D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702E4CAB-F7A8-4DA4-AFE4-2EC540E07D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702E4CAB-F7A8-4DA4-AFE4-2EC540E07D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
